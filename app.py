@@ -31,10 +31,10 @@ def recommend(movie):
     return recommended_movies, recommended_movies_posters
 
 #Load data
-movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
+movies_dict = pickle.load(open('../models/movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = pickle.load(open('../models/similarity.pkl', 'rb'))
 
 # Streamlit Layout improvements
 st.set_page_config(page_title="Movie Recommendation System", layout="wide")
