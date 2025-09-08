@@ -1,6 +1,5 @@
 venv/
 .env
-similarity.pkl
 .streamlit/secrets.toml
 Content-Based-Movie-Recommendation-System.code-workspace
 # Byte-compiled / optimized / DLL files
